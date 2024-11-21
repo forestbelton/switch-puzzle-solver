@@ -136,6 +136,10 @@ function App() {
   return (
     <div>
       <h1>Switch Puzzle Solver</h1>
+      <p className="App-description">
+        Set up the board state in editing mode. Then switch to solving mode and
+        click on the highlighted cells to see the path to the solution!
+      </p>
       <div className="App-modeSelect">
         <b>Mode:</b>
         <label htmlFor="mode-editing">Editing</label>
@@ -158,7 +162,7 @@ function App() {
         />
       </div>
       <div className="App-board">{...grid}</div>
-      <button type="button" onClick={onResetBoard}>
+      <button className="App-resetButton" type="button" onClick={onResetBoard}>
         Reset
       </button>
     </div>

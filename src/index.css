@@ -39,6 +39,11 @@ body {
   text-align: center;
 }
 
+.App-description {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 .App-modeSelect {
   margin-top: 2rem;
 }
@@ -54,4 +59,10 @@ body {
 .App-board input {
   width: 5rem;
   height: 5rem;
+}
+
+.App-resetButton {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.25rem;
 }
